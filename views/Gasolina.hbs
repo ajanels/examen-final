@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/AJEDREZ.CSS">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>AJEDREZ</title>
+</head>
+<body>
+     {{>header}}
+    {{>navbar}}
+
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1>Energía para tu viaje, respeto por el planeta</h1>
+            <p>Ofrecemos combustibles de alta calidad y servicios excepcionales con un enfoque sostenible.</p>
+            <a href="#servicios" class="btn">Conoce nuestros servicios</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="service-grid">
+                <div class="service">
+                    <img src="gas-icon.png" alt="Icono de Gasolina">
+                    <h3>Combustibles de Calidad</h3>
+                    <p>Ofrecemos gasolina y diésel de alta calidad para un rendimiento óptimo.</p>
+                </div>
+                <div class="service">
+                    <img src="carwash-icon.png" alt="Icono de Lavado de Autos">
+                    <h3>Lavado de Autos</h3>
+                    <p>Mantén tu vehículo impecable con nuestro servicio de lavado ecológico.</p>
+                </div>
+                <div class="service">
+                    <img src="shop-icon.png" alt="Icono de Tienda">
+                    <h3>Tienda de Conveniencia</h3>
+                    <p>Encuentra todo lo que necesitas para tu viaje en nuestra tienda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="precios" class="prices">
+        <div class="container">
+            <h2>Precios Actuales</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Combustible</th>
+                        <th>Precio por Litro</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gasolina Regular</td>
+                        <td>$XX.XX</td>
+                    </tr>
+                    <tr>
+                        <td>Gasolina Premium</td>
+                        <td>$XX.XX</td>
+                    </tr>
+                    <tr>
+                        <td>Diésel</td>
+                        <td>$XX.XX</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <p>¿Tienes alguna pregunta? ¡No dudes en contactarnos!</p>
+            <ul>
+                <li>Teléfono: (XXX) XXX-XXXX</li>
+                <li>Email: contacto@energiaverde.com</li>
+                <li>Dirección: [Dirección completa]</li>
+            </ul>
+        </div>
+    </section>
+
+     {{>footer}}
+</body>
+        <script src="./js/menu.js"></script>
+
+</html>

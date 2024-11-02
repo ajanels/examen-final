@@ -1,0 +1,205 @@
+
+:root {
+  --font: 'Oxygen', sans-serif;
+  --primary: #0e396d;
+  --gradient: linear-gradient(135deg, #7b2cbf 0%, #6e2a91 30%, #3a0ca3 70%, #1d4ed8 100%);
+  --black: black;
+}
+
+body {
+  font-family: var(--font);
+  background: skyblue;
+  margin: 0;
+  display: center    
+}
+
+.footer-content p {
+  margin: 0px 0;
+}
+
+#header {
+  background: linear-gradient(45deg, #f02c00, #07cce2);
+  color: #FFFFFF; 
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 0 0 10px 10px; 
+}
+
+.footer {
+  width: 100%; 
+  background: linear-gradient(45deg, #f02c00, #07cce2);
+  color: #FFFFFF;
+  text-align: center; 
+  padding: 10px 20px; 
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000; 
+  border-radius: 10px 10px 0 0; 
+}
+
+
+.logo a {
+  text-decoration: none;
+  font-size: 24px; 
+  font-weight: bold;
+}
+
+.logo span {
+  color: #FFD700; 
+}
+
+
+/*ESTILOS PARA EL MENU*/
+.menu:hover {
+  background-color: rgba(255, 255, 255, 0.2); 
+}
+
+.menu {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 1px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  margin-right: 50px; 
+}
+/* Estilos para el menú overlay */
+.menu-overlay {
+  display: none; 
+  position: fixed;
+  top: -50;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #3333333f; 
+  padding: 20px;
+  color: #fff;
+  z-index: 1001;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.133);
+  transition: transform 0.3s ease; 
+  transform: translateX(100%);
+}
+
+.menu-overlay .links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-overlay .links li {
+  margin: 20px 0;
+}
+
+.menu-overlay .links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.close-menu {
+  background-color: #ff3333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#youtube-video {
+  width: 100%; 
+  height: 315px; 
+}
+
+
+
+
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3 {
+  color: #228B22; /* Verde oscuro */
+  margin-bottom: 1em;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+a {
+  color: #008000; /* Verde */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #008000;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #228B22;
+}
+
+/* Estilos de las secciones */
+.hero {
+  background-image: url("hero-image.jpg"); /* Reemplaza con la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.intro {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.vehiculos {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.vehiculo-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.vehiculo {
+  margin-bottom: 40px;
+  width: 300px; /* Ajusta el ancho según sea necesario */
+}
+
+.vehiculo

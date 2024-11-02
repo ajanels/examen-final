@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./proyectos.hbs">
+  <link rel="stylesheet" href="./js/script.js">
+  <link rel="stylesheet" href="./js/scriptt.js">
+  <title>{{titulo}}</title>
+</head>
+<body>
+
+   {{>header}}
+   {{>navbar}}
+ 
+<section id="hero" class="hero">
+  <div class="container">
+    <h1>Soluciones de Transporte de Carga Confiables</h1>
+    <p>Encontrá el vehículo ideal para tu negocio.</p>
+    <a href="#vehiculos" class="btn">Ver vehículos</a>
+  </div>
+</section>
+
+<section id="intro" class="intro">
+  <div class="container">
+    <h2>Moviendo tu negocio hacia adelante</h2>
+    <p>Ofrecemos una amplia gama de vehículos de carga, desde camiones ligeros hasta trailers de gran capacidad, 
+      para satisfacer todas tus necesidades de transporte. Nos enfocamos en la seguridad, eficiencia y confiabilidad 
+      para que tu carga llegue a su destino en tiempo y forma.</p>
+  </div>
+</section>
+
+<section id="vehiculos" class="vehiculos">
+  <div class="container">
+    <h2>Nuestra Flota</h2>
+    <div class="vehiculo-grid">
+      <div class="vehiculo">
+        <img src="DECARGA.jfif" alt="Camioneta de carga">
+        <h3>Camionetas</h3>
+        <p>Ideales para cargas ligeras y entregas urbanas.</p>
+      </div>
+      <div class="vehiculo">
+        <img src="MEDIANOS.jfif" alt="Camión mediano">
+        <h3>Camiones Medianos</h3>
+        <p>Versátiles para transportar cargas medianas a largas distancias.</p>
+      </div>
+      <div class="vehiculo">
+        <img src="TRILERS.jfif" alt="Trailer">
+        <h3>Trailers</h3>
+        <p>Gran capacidad para mover grandes volúmenes de carga.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cta" class="cta">
+  <div class="container">
+    <h2>¿Listo para cotizar tu transporte?</h2>
+    <p>Contáctanos y encuentra la solución ideal para tu negocio.</p>
+    <a href="#contacto" class="btn">Contactar</a>
+  </div>
+</section>
+  
+
+ 
+
+        {{>footer}}
+        <script src="./js/script.js"></script></body>
+        <script src="./js/menu.js"></script>
+</html>
